@@ -10,9 +10,9 @@ import "../styles/index.css";
 function TimeSlotContainer(props){
     return (<div className="bigCounter">
             <div className="calender"><i className="far fa-regular fa-clock"></i></div>
-            <div className="four">{props.digitFour %10}</div>
+            <div className="four">{props.digitFour %10 }</div>
             <div className="three">{props.digitThree %10}</div>
-            <div className="two">{props.digitTwo %10}</div>
+            <div className="two">{props.digitTwo %10 }</div>
             <div className="one">{props.digitOne %10}</div>
     </div>);
 }
